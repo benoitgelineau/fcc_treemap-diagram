@@ -1,0 +1,42 @@
+body {
+  background-color: lightgrey;
+}
+
+ul {
+  display: block;
+  width: 600px;
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+li {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+li:nth-of-type(2) {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.map {
+  background-color: white;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  font: 16px sans-serif;
+  line-height: 20px;
+  color: #FFF;
+  background-color: rgba(0,0,0,0.7);
+  border: 1px solid black;
+  border-radius: 8px;
+  pointer-events: none;
+}
